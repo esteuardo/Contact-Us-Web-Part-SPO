@@ -1,0 +1,39 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.profImg{
+  width: 100%;
+  height: auto;
+}
+
+.msColWrapper{
+  padding-left: 0!important;
+}
+
+strong, b {
+  color: #8B3B32;
+}
+
+.description {
+  font-family: 'Open Sans', sans-serif !important;
+  color: #000000;
+  font-weight:  600;
+  font-size: 20px
+}
+
+.phone {
+  white-space: nowrap;
+}
+
+.email {
+  position: relative;
+}
+
+.aEmailIco{
+  position: absolute;
+  top: 5px;
+}
+
+.aEmail{
+  position: relative;
+  padding-left: 20px;
+}

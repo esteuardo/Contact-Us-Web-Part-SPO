@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "contact-us-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/contactUs/ContactUsWebPart.js",
+          "manifest": "./src/webparts/contactUs/ContactUsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ContactUsWebPartStrings": "lib/webparts/contactUs/loc/{locale}.js"
+  }
+}

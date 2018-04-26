@@ -1,0 +1,26 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Contact Us Web Part",
+    "id": "18fbf5e9-6ac0-4172-a23e-7dddfabcbb27",
+    "version": "2.0.0.0",
+    "includeClientSideAssets": true,
+    "features": [{
+     "title": "Contact Us Web Part",
+     "description": "Contact Us Web Part for SP site",
+     "id": "743ad35d-8b49-44de-9385-2cf5ec38987f",
+     "version": "2.0.0.0",
+     "assets": {
+       "elementManifests": [
+         "elements.xml"
+       ],
+       "elementFiles":[
+         "schema.xml"
+       ]
+     }
+   }]
+  },
+  "paths": {
+    "zippedPackage": "solution/contact-us.sppkg"
+  }
+}
